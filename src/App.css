@@ -1,0 +1,92 @@
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+.submit-form {
+  max-width: 500px;
+  margin: auto;
+}
+
+.edit-form {
+  max-width: 500px;
+  margin: auto;
+}
+
+.ant-form-item-required::before {
+  content: "" !important;
+}
+.ant-form-item-required::after {
+  display: inline-block !important;
+  margin-right: 4px !important;
+  color: #ff4d4f !important;
+  font-size: 14px !important;
+  font-family: SimSun, sans-serif !important;
+  line-height: 1 !important;
+  content: "*" !important ;
+}
+
+.ant-form-item-label > label::after{
+  content:  "";
+}
+
+label {
+  display: inline-block;
+  margin-top: -2px;
+
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.footer {
+  background: #212529 !important ;
+  color: #ccc !important;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 10px !important;
+}
+
+.register-formitem {
+  margin-bottom: 10px !important;
+}
+
+.hyperlink:hover{
+  text-decoration: underline;
+}
+
+.linkhover:hover{
+  background-color: #f4f9fe;
+}
+
+
+
